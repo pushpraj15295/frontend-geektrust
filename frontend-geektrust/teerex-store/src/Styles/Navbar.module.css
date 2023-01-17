@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(241, 240, 240);
+}
+.navbar_cart {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar_cart_icon {
+  margin-top: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 7px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+}
+.navbar_cart_count {
+  font-size: 10px;
+  margin-top: -6px;
+}
+
+@media (max-width: 484px) {
+   .navbar_prod{
+     display: none;
+   }
+   
+}

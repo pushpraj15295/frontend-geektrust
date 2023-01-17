@@ -1,0 +1,18 @@
+.cartBox{
+    display: flex;
+    justify-content: space-around;
+    width:50%
+}
+.header{
+    width:80%;
+    margin: auto;
+    color: green;
+}
+
+.cart_Container{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    width:90%;
+    margin: auto;
+}
